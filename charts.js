@@ -28,6 +28,10 @@
             pointStart: 1996
         }
     },
+    
+    credits: {
+        enabled: false
+    },
 
     series: [{
         name: 'Китай',
