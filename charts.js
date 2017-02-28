@@ -1,4 +1,7 @@
 
+     Highcharts.setOptions({
+        colors: ['#40A798', '#FF98DA', '#27E1CE', '#D6EC78', '#625772']
+});
      Highcharts.chart('chart-container', {
 
     title: {
@@ -8,7 +11,7 @@
     subtitle: {
         text: ''
     },
-
+     
     yAxis: {
         title: {
             text: 'данные в процентах'
