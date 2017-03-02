@@ -96,7 +96,10 @@ Highcharts.chart('container2', {
     }, {
         name: 'Швеция',
         data: [1.5, 2.9, 4.2, 4.5, 4.7, 1.5, 2, 2.4, 4.3, 2.3, 4.3, 3.3, -0.6, -5.3, 5.9, 2.9, 0.9, 1.3, 2.3, 2.8]
-    }]
+    }],
+    credits: {
+        enabled: false
+    }
 });
 		// making tabs activ on jquery
 		$(document).ready(function(){
